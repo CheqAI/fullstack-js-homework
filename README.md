@@ -39,6 +39,7 @@ table structure & initial data are included as separate files.
 - can start client from template (create-react-app, bootstrap, material-ui etc...)
 
 ### Client Result Example:
+```
 --------------------
 | Vasts	| Keywords |						 // <- table tabs
 -------------------------------------------------------
@@ -46,6 +47,7 @@ table structure & initial data are included as separate files.
 -------------------------------------------------------
 | 1     | first vast... 		    |    *    |		 // <- table rows
 | 2     | seconds vast...		    |    *    |
+```
 
 ### Tips & Notes:
 - DB structure & initial data are located in separate files
