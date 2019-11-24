@@ -1,16 +1,14 @@
 ﻿## Interview Homework
 
 ### Getting Started
-- use MySQL Workbench to import structure.sql using self-contained file method 
+- use MySQL Workbench to import structure.sql using self-contained file method
   (tutorial: https://dev.mysql.com/doc/workbench/en/wb-admin-export-import-management.html)
-- use MySQL Workbench to import the data from the CSVs to the relevant tables 
-  (tutorial: http://www.mysqltutorial.org/import-csv-file-mysql-table/)
 
 ### Task
 write a web-app that includes frontend & backend.
 the app will include 2 views:
 1) login
-a form with inputs for email & password. when submitted the credentials will be check agains users table.
+a form with inputs for email & password. when submitted the credentials will be checked against users table.
 table structure & password validation flow are up to the developer.
 
 2) data-table
@@ -30,10 +28,10 @@ table structure & initial data are included as separate files.
 
 ### Backend Specifications:
 - communicates with MySQL for crud operations
-- has a total of 9 routes: get_all\create\update\delete for each of the two models: vasts & keyword_lists and login
+- has a total of 10 routes: login\logout & get_all\create\update\delete for each of the two models: vasts & keyword_lists and login
 
 ### Requirements
-- frontend written in react + redux (bonus: react hooks)
+- frontend written in react
 - backend written in nodejs + expressjs (CRM's are allowed: sequelize, knexjs, etc...)
 - if not using CRM, using mysql lib is recommended
 - can start client from template (create-react-app, bootstrap, material-ui etc...)
@@ -54,6 +52,3 @@ table structure & initial data are included as separate files.
 - keep code dry & clean, give intuitive names to functions & variables
 - be sure to write a secured code & handle invalid user input\requests
 - be creative. We are looking to see code that is written correctly rather than only running..
-
-
-
